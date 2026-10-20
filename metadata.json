@@ -1,0 +1,8 @@
+{
+  "name": "Remix Rosebloom Monthsary - A Personalized Romantic Love Letter",
+  "description": "An aesthetic, immersive monthsary website featuring a realistic pink rose bloom, a full-screen petal rush, customized love letter, 4-photo gallery with individual messages, and a romantic music player.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

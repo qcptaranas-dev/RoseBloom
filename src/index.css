@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', Georgia, serif;
+    --font-display: 'Playfair Display', Georgia, serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-script: 'Great Vibes', cursive;
+    --font-handwriting: 'Caveat', cursive, sans-serif;
+  }
+}
+
+.font-cormorant {
+  font-family: var(--font-serif);
+}
+
+.font-playfair {
+  font-family: var(--font-display);
+}
+
+.font-script {
+  font-family: var(--font-script);
+}
+
+.font-handwriting {
+  font-family: var(--font-handwriting);
+}
+
+.font-sans-custom {
+  font-family: var(--font-sans);
+}
+
+/* Custom delicate scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(225, 175, 185, 0.4);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(214, 140, 155, 0.7);
+}
+
+/* Subtle botanical shimmer */
+@keyframes floralBreathe {
+  0%, 100% {
+    transform: scale(1) translateY(0);
+  }
+  50% {
+    transform: scale(1.02) translateY(-4px);
+  }
+}
+
+.animate-floral-breathe {
+  animation: floralBreathe 7s ease-in-out infinite;
+}
